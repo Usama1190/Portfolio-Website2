@@ -111,7 +111,7 @@ ul
     color: var(--text-black-900);
     font-weight: 700;
     position: relative;
-    animation: heading 3s 0.01s infinite ease-in-out;
+    /* animation: heading 3s 0.01s infinite ease-in-out; */
 }
 
 @keyframes heading {
@@ -159,6 +159,7 @@ ul
 
 .btn
 {
+    border: transparent;
     font-size: 16px;
     font-weight: 500;
     padding: 12px 35px;
@@ -1012,16 +1013,8 @@ h3.my-profession
 {
     position: sticky;
     top: 10px;
-    /* margin-right: 35px; */
-    /* float: right; */
-    /* right: 35px; */
-    /* top: 20px; */
     font-size: 20px;
     color: var(--skin-color);
-}
-
-@keyframes surpries {
-    
 }
 
 
@@ -1035,7 +1028,7 @@ h3.my-profession
     .main-container .aside
     {
         /* left: -270px; */
-        /* display: none; */
+        display: none;
     }
 
     .main-container .main-content
